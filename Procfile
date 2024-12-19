@@ -1,0 +1,1 @@
+web: gunicorn crypto_wallet.wsgi:application --log-file -
